@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    background-color: #F8F8F8; 
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+img {
+    width: 200px;
+    border-radius: 100px;
+}
+
+.color-box, .box-black__bottom, .box-black__top{
+    width: 250px;
+    height: 250px;
+}
+
+.color-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-black__bottom, .box-black__top, .box-black__middle {
+    background-color: black;
+}
+
+.t-text {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.s-text {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(255, 0, 128);  
+}
+
+.box-more {
+    width: 100px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: rgb(255, 0, 128);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.box-yellow {
+    background-color: rgb(255, 187, 0);
+    position: absolute;
+}
+
+.color__change1 {
+    transition: all 1s ease-in;
+}
+
+.color__change1:hover + .box-black__top {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-black__top .box-more {
+    margin-top: 20px;
+}
+
+.box-black__top {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.box-blue {
+    background-color: rgb(182, 228, 255);
+}
+
+.box-black__middle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.box-pupple {
+    background-color: thistle;
+    position: absolute;
+    z-index: 3;
+    align-self: flex-start;
+}
+
+.box-black__bottom {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    position: relative;
+    top: 0;
+}
+
+.color__change3 {
+    transition: all 5s ease-in;
+    
+}
+
+.color__change3 :hover {
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+    transform: scale(0.5);
+    transform-origin: top;
+    margin-top: 20px;
+}

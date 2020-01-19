@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    background-color: #F8F8F8; 
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    width: 150px;
+    border-radius: 200px;
+}
+
+.box .color-box {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box .box-yellow {
+    background-color: rgb(255, 187, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box-black__top {
+    display: none;
+    position: absolute;
+    top:10px;
+    left:240px;
+}
+
+.box-more__top {
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.box-yellow:hover + .box-black__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-black {
+    background-color: black;
+    color: white;
+}
+
+.box-black .t-text {
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+}
+
+.box-black .s-text {
+    font-size: 13px;
+    color: rgb(255, 0, 128);
+}
+
+.box-black .box-more {
+    width: 80px;
+    height: 25px;
+    color: white;
+    background-color: rgb(255, 0, 128);
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.box-black__top, .box-black__bottom {
+    width: 300px;
+    height: 200px;
+}
+
+.box-black__middle {
+    width: 300px;
+    height: 70px;
+}
+
+.box-blue {
+    background-color: rgb(182, 228, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box-black__middle {
+    display: none;
+}
+
+.box-blue :hover ~ .box-black__middle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    animation: blueboxAni 0.5s ease-out forwards;
+}
+
+@keyframes blueboxAni {
+    from {
+        background-color: khaki;
+    }
+    to {
+        background-color: hotpink;
+    }
+}
+
+.box-pink {
+    background-color: thistle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    transition: all .5s ease-in;
+}
+
+.box-black__bottom {
+    position: relative;
+}
+
+.box-pink :hover {
+    width: 30%;
+}
+
+
