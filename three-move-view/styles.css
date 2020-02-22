@@ -13,6 +13,9 @@ body {
     align-items: center;
 }
 
+.box {
+    margin: 10px;
+}
 
 img {
     width: 200px;
@@ -96,9 +99,43 @@ img {
 
 .box-black__middle{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
+}
+
+.more-box:hover {
+    width: 250px;
+    height: 250px;
+    overflow:hidden;
+    position: relative;
+}
+
+.box-blue {
+    animation: dyth 1s ease-out;
+}
+
+@keyframes dyth {
+    from {
+        transform: none;
+    }
+    to {
+        transform: translateY(-78px);
+    }
+}
+
+.box-black__middle {
+    position: relative;
+    animation: middle 1s ease-out;
+}
+
+@keyframes middle {
+    from {
+        transform: none;
+    }
+    to {
+        transform: translateY(-78px); 
+    }
 }
 
 .box-pupple {
