@@ -5,6 +5,7 @@ body {
     margin: 0px;
     padding: 0px 250px;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 249, 241)
 }
 
 .header {
@@ -37,10 +38,18 @@ main {
     margin-top: 40px;
 }
 
+.header {
+    color: #C3DFE9;
+}
+
 .me__top {
     display: flex;
    align-items: center;
-   margin-bottom: 50px;
+   margin-bottom: 35px;
+}
+
+.me_intro {
+    padding-right: 10px;
 }
 
 .grid-left__column .me__img {
@@ -69,6 +78,10 @@ img {
     font-size: 14px;
 }
 
+.intrest {
+    margin-top: 40px;
+}
+
 .intrest__icon {
     display: flex;
     justify-content: flex-start;
@@ -91,4 +104,19 @@ img {
     opacity: .7;
     font-size: 14px; 
     margin-top: 5px;
+}
+
+.text_box {
+    padding-right: 30px;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 25px;
+    opacity: .7;
+}
+
+.mini_text {
+    margin-top: 10px;
+    font-size: 10px;
 }
