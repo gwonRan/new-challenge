@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLOWPICK Review</title>
+    <script src="https://kit.fontawesome.com/72b94ba6d0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="status-bar">
+    <div class="status-bar__column">
+        <i class="fas fa-signal"></i>
+        <span class="status-bar__font">SKT</span>
+        <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+        <span class="status-bar__clock">오후3:30</span>
+    </div>
+    <div class="status-bar__column">
+        <span class="status-bar__font">93%</span>
+        <i class="fas fa-battery-three-quarters"></i>
+    </div>
+</div>
+<!-- 위는 휴대폰 상태창, 아래는 헤더 -->
+<header>
+    <div class="header__column">
+        <span class="title">리뷰</span>
+    </div>
+    <div class="header__column">
+        <i class="far fa-user"></i>
+        <i class="fas fa-search"></i>
+    </div>
+</header>
+<!-- 메인콘텐츠 -->
+<main class="review">
+    <div class="review-number">
+        <div class="review-number__column">3,325,325<span class="gray-font">개의 리뷰</span></div>
+        <div class="review-number__column"><i class="fas fa-filter"></i><span class="gray-font">필터</span></div>
+    </div>
+    <!-- 상단의 필터와 리뷰갯수 -->
+    <span class="reviewer">TOP Reviewer</span>
+    <div class="top-reviewer">
+        <ul class="top-reviewer-list">
+            <li class="top-reviewer-list__column">
+                <img src="img/user.jpg" alt="">
+                <span class="user-name">꿩란</span>
+                <div class="list__column-respon">
+                    <div class="list__column-respon__column">
+                        <i class="fas fa-comment-alt"></i>
+                        <span class="red-font small-font">1153</span>
+                    </div>
+                    <div class="list__column-respon__column">
+                        <i class="fas fa-thumbs-up"></i>
+                        <span class="red-font small-font">30673</span>
+                    </div>
+                </div>
+            </li>
+            <li class="top-reviewer-list__column">
+                <img src="img/user2.JPG" alt="">
+                <span class="user-name">다롱이맘</span>
+                <div class="list__column-respon">
+                    <div class="list__column-respon__column">
+                        <i class="fas fa-comment-alt"></i>
+                        <span class="red-font small-font">605</span>
+                    </div>
+                    <div class="list__column-respon__column">
+                        <i class="fas fa-thumbs-up"></i>
+                        <span class="red-font small-font">20040</span>
+                    </div>
+                </div>
+            </li>
+            <li class="top-reviewer-list__column">
+                <img src="img/user3.JPG" alt="">
+                <span class="user-name">ABC처컬렛</span>
+                <div class="list__column-respon">
+                    <div class="list__column-respon__column">
+                        <i class="fas fa-comment-alt"></i>
+                        <span class="red-font small-font">884</span>
+                    </div>
+                    <div class="list__column-respon__column">
+                        <i class="fas fa-thumbs-up"></i>
+                        <span class="red-font small-font">17583</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- 리뷰 많이 적은 사람 -->
+    <div class="review">
+        <div class="review-product">
+            <div class="review-product__column">
+                <img src="img/ripstick.png" alt="">
+                <span class="emoji soso"><i class="far fa-meh"></i>쏘쏘!</span>
+            </div>
+            <div class="review-product__column">
+                <div class="review-product__column-product">
+                    <span class="best-title red-font">바세린 (Vaseline)</span>
+                    <span class="product-name">바세린 립테라피 컬러&케어</span>
+                </div>
+                <span class="user-info gray-font">방금</span>
+                <span class="review-text">
+                    촉촉함과 입술의 생기를 동시에 가져갈 수 있다는 점이 큰 장점인 것 같아요!
+                    요즘 같이 코로나로 화장도 잘 못할 때에는 가볍에 슥슥- 발라주기 최상의 제품
+                    꼭 강추드리고 다 쓰고 다른색들도 종류별로 모을 거예요!
+                </span>
+                <div class="review-product__column-user">
+                    <div class="user-comment__column__item">
+                        <span class="user-info gray-font">꿩란</span>
+                        <i class="fas fa-circle"></i>
+                        <span class="user-info gray-font">25</span>
+                        <i class="fas fa-circle"></i>
+                        <span class="user-info gray-font">복합성 <i class="fas fa-venus"></i></span>
+                    </div>
+                    <div class="like-number">
+                        <i class="fas fa-thumbs-up"></i>
+                        <span class="gray-font">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 제품하나 끝 -->
+        <div class="review-product"></div>
+    </div>
+    <div class="write-button"><i class="fas fa-pencil-alt"></i></div>
+</main>
+    <!-- footer -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__list__item">
+                <a href="index.html" class="nav__list-link">
+                    <i class="fas fa-home"></i>
+                    <span class="nav__list-font">홈</span>
+                </a>
+            </li>
+            <li class="nav__list__item">
+                <a href="review.html" class="nav__list-link">
+                    <i class="fas fa-edit"></i>
+                    <span class="nav__list-font">리뷰</span>
+                </a>
+            </li>
+            <li class="nav__list__item">
+                <a href="store.html" class="nav__list-link">
+                    <i class="fas fa-store"></i>
+                    <span class="nav__list-font">스토어</span>
+                </a>
+            </li>
+            <li class="nav__list__item">
+                <a href="event.html" class="nav__list-link">
+                    <i class="fas fa-gift"></i>
+                    <span class="nav__list-font">이벤트</span>
+                </a>
+            </li>
+            <li class="nav__list__item">
+                <a href="etc.html" class="nav__list-link">
+                    <i class="fas fa-book"></i>
+                    <span class="nav__list-font">캐스트</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
