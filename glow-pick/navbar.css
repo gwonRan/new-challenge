@@ -25,7 +25,3 @@
 .nav__list-font {
     font-size: 12px;
 }
-
-.nav .nav__list__item:first-child {
-    color: #cf021a;
-}

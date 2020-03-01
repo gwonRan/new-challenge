@@ -6,11 +6,13 @@
 
 .home-img img {
     width: 100%;
+    border-bottom: 1px solid #dfdfdf;
 }
 
 .home-ranking {
     margin-top: 10px;
     background-color: white;
+    border-bottom: 1px solid #dfdfdf;
 }
 
 .title {
@@ -117,4 +119,8 @@
 .user-commnet {
     background-color: rgb(245, 245, 245);
     height: 235px;
+}
+
+.nav .nav__list__item:first-child {
+    color: #cf021a;
 }
