@@ -1,0 +1,24 @@
+header {
+    position: fixed;
+    background-color: #CF0119;
+    width: 100%;
+    height: 65px;
+    top: 35px;
+    padding: 15px 30px 25px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__column {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.glowpick {
+    font-size: 25px; 
+}
+
+.header__column i:first-child {
+    margin-right: 10px;
+}

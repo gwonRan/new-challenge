@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Noto+Sans+KR:400,500,700&display=swap');
+
+@import "reset.css";
+@import "font.css";
+@import "navbar.css";
+@import "main.css";
+@import "statusbar.css";
+@import "header.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F2F2;
+    font-family: 'Montserrat','Noto Sans KR', Arial, Helvetica, sans-serif;
+}
