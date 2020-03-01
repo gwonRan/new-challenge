@@ -22,11 +22,12 @@
 .home-ranking-text {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-bottom: 25px;
     padding: 30px 30px;
 }
 
-.home-ranking-text__column {
+.home-ranking-tex__column {
     display: flex;
     align-items: center;
 }
