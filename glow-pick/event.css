@@ -1,0 +1,39 @@
+.event {
+    background-color: white;
+}
+
+.event-category {
+    display: flex;
+    justify-content: space-between;
+    padding:0px 70px 0px 70px;
+    border: 1px solid #dfdfdf;
+    align-items: center;
+}
+
+.event-category .event-title:last-child {
+    border-bottom: 2px solid #cf021a;
+    padding: 15px;
+    color: #cf021a;
+    font-weight: 600;
+}
+
+.event-title {
+    padding: 7px 30px;
+}
+
+.event-etc {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 30px;
+    border-bottom: 1px solid #dfdfdf;
+    align-items: center;
+}
+
+.event-etc i {
+    font-size: 10px;
+    color: #cf021a;
+}
+
+.event img {
+    width: 100%;
+}
