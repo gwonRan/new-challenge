@@ -8,6 +8,7 @@
 @import "header.css";
 @import "review.css";
 @import "event.css";
+@import "cast.css";
 
 * {
     box-sizing: border-box;
@@ -16,7 +17,7 @@
 body {
     background-color: #F2F2F2;
     font-family: 'Montserrat','Noto Sans KR', Arial, Helvetica, sans-serif;
-    height: 1000px;
+    height: 800px;
 }
 
 a {

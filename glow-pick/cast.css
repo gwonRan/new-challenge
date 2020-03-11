@@ -1,0 +1,77 @@
+.etc {
+    padding: 10px 30px;
+}
+
+.etc-news img {
+    width: 215px;
+    
+}
+
+.etc-news .etc-img {
+    width: 215px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.etc-new-contects__column {
+    background-color: white;
+    border: 5px soild #d5d5d5;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.etc-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.thumbs-badge {
+    width: 40px;
+    height: 40px;
+    background-color: #1b5fd6;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    z-index: 3;
+    top: 132px;
+    left:90px;
+}
+
+.new-text {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.etc-new-text {
+    padding: 30px 20px 30px 20px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+select {
+    border-radius: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; /*기본 스타일 없애기*/
+    font-family: inherit;
+    background: url('img/angle-right.svg')  no-repeat 95% 50%;
+    background-color: white;
+    width: 440px;
+    height: 50px;
+    padding: 0px 0px 0px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #999;
+    font-size: 13px;
+}
+
+select::-ms-expand {display:none;} /*ie에서 기본 스타일 없애줌*/

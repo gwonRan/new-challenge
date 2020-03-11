@@ -15,7 +15,7 @@
 }
 
 .emoji {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 500;
 }
 
@@ -41,4 +41,8 @@
 
 .middle-font {
     font-size: 13px;  
+}
+
+.editer {
+    font-size: 8px;
 }
