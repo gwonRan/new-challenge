@@ -9,6 +9,7 @@
 @import "review.css";
 @import "event.css";
 @import "cast.css";
+@import "store.css";
 
 * {
     box-sizing: border-box;
@@ -17,7 +18,7 @@
 body {
     background-color: #F2F2F2;
     font-family: 'Montserrat','Noto Sans KR', Arial, Helvetica, sans-serif;
-    height: 800px;
+    height: 900px;
 }
 
 a {

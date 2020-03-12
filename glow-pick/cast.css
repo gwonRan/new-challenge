@@ -7,8 +7,21 @@
     
 }
 
+.select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    width: 99%;
+    border:1px solid #d5d5d5;
+    height: 45px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 0px 15px;
+}
+
 .etc-news .etc-img {
-    width: 215px;
+    width: 205px;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -21,6 +34,7 @@
     border: 5px soild #d5d5d5;
     margin-bottom: 10px;
     position: relative;
+    margin-right: 5px;
 }
 
 .etc-news {
@@ -58,11 +72,11 @@
     font-size: 15px;
 }
 
-select {
+/* select {
     border-radius: 0px;
     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none; /*기본 스타일 없애기*/
+    appearance: none; 기본 스타일 없애기
     font-family: inherit;
     background: url('img/angle-right.svg')  no-repeat 95% 50%;
     background-color: white;
@@ -74,4 +88,4 @@ select {
     font-size: 13px;
 }
 
-select::-ms-expand {display:none;} /*ie에서 기본 스타일 없애줌*/
+select::-ms-expand {display:none;} ie에서 기본 스타일 없애줌 */
