@@ -8,4 +8,6 @@
     width: 100%;
     left: 0;
     top: 0;
+    font-size: 13px;
+    z-index: 4;
 }
